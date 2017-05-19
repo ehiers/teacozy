@@ -41,3 +41,22 @@ main {
   background-color: black;
   width: 100%;
 }
+#container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#row1,
+#row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
