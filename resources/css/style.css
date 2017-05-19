@@ -12,7 +12,7 @@ header {
   align-items: center;
   border-bottom: 1px solid seashell;
   position: fixed;
-  height: 70px;
+  height: 69px;
   width: 100%;
   background-color: black;
   opacity: 0.9;
@@ -20,7 +20,11 @@ header {
 }
 #logo {
   height: 50px;
+  width: auto;
   padding-left: 10px;
+}
+nav {
+  padding-right: 10px
 }
 nav span {
   padding: 0 8px;
@@ -50,8 +54,7 @@ main {
 img {
   height: 200px;
   width: 300px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 10px 25px;
 }
 #row1,
 #row2 {
@@ -59,4 +62,44 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+}
+#row1 h4{
+    margin-top: 0;
+}
+#row2 h4{
+    margin-top: 0;
+}
+#row2 {
+  margin-bottom: 50px;
+}
+#locations {
+  background-image: url("../img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-flow: nowrap column;
+}
+#container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article.Lbox {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+}
+#Lbanner h2 {
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+#container3 {
+  height: 200px;
+}
+#container3 h2 {
+  margin-top: 10px;
+}
+#copyright {
+  text-align: left;
 }
